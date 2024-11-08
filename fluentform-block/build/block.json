@@ -1,0 +1,845 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ffblock/fluentform",
+  "title": "Fluent Form Block",
+  "category": "fluentform-block",
+  "description": "Fluent forms block is the extension of Fluent forms plugin.You can build advanced Contact form by Fluent form  block.",
+  "keywords": [
+    "gutenberg form",
+    "contact form",
+    "forms",
+    "custom form",
+    "form builder"
+  ],
+  "textdomain": "fluentform-block",
+  "supports": {
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "layout": {
+      "type": "string",
+      "default": "1"
+    },
+    "formId": {
+      "type": "string",
+      "default": "1"
+    },
+    "isHtml": {
+      "type": "boolean",
+      "default": false
+    },
+    "formJson": {
+      "type": "object",
+      "default": null
+    },
+    "formName": {
+      "type": "string",
+      "default": "basic_contact_form"
+    },
+    "labelEnable": {
+      "type": "boolean",
+      "default": true
+    },
+    "placeholderEnable": {
+      "type": "boolean",
+      "default": true
+    },
+    "errorMessageEnable": {
+      "type": "boolean",
+      "default": true
+    },
+    "formAlignment": {
+      "type": "object",
+      "default": []
+    },
+    "formMaxWidth": {
+      "type": "object",
+      "default": {
+        "lg": "",
+        "unit": "px"
+      }
+    },
+    "labelTypo": {
+      "type": "object",
+      "default": {
+        "openTypography": 1,
+        "size": {
+          "lg": "",
+          "unit": "px"
+        },
+        "spacing": {
+          "lg": "",
+          "unit": "px"
+        },
+        "height": {
+          "lg": "",
+          "unit": "px"
+        },
+        "transform": "",
+        "weight": ""
+      }
+    },
+    "labelColor": {
+      "type": "string",
+      "default": ""
+    },
+    "labelSpace": {
+      "type": "object",
+      "default": {
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "inputTATypo": {
+      "type": "object",
+      "default": {
+        "openTypography": 1,
+        "size": {
+          "lg": "",
+          "unit": "px"
+        },
+        "spacing": {
+          "lg": "",
+          "unit": "px"
+        },
+        "height": {
+          "lg": "",
+          "unit": "px"
+        },
+        "transform": "",
+        "weight": ""
+      }
+    },
+    "inputTAColor": {
+      "type": "string",
+      "default": ""
+    },
+    "inputTABGColor": {
+      "type": "string",
+      "default": ""
+    },
+    "inputWidth": {
+      "type": "object",
+      "default": {
+        "lg": "",
+        "unit": "px"
+      }
+    },
+    "inputHeight": {
+      "type": "object",
+      "default": {
+        "lg": "",
+        "unit": "px"
+      }
+    },
+    "textareaWidth": {
+      "type": "object",
+      "default": {
+        "lg": "",
+        "unit": "px"
+      }
+    },
+    "textareaHeight": {
+      "type": "object",
+      "default": {
+        "lg": "",
+        "unit": "px"
+      }
+    },
+    "inputTAPadding": {
+      "type": "object",
+      "default": {
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "inputTAMargin": {
+      "type": "object",
+      "default": {
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "inputTABorder": {
+      "type": "object",
+      "default": {
+        "borderStyle": "",
+        "borderColor": "",
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "inputTAHoverBorder": {
+      "type": "object",
+      "default": {
+        "borderStyle": "",
+        "borderColor": "",
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "inputTARadius": {
+      "type": "object",
+      "default": {
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "inputTAHoverRadius": {
+      "type": "object",
+      "default": {
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "checkboxRSize": {
+      "type": "object",
+      "default": {
+        "lg": "",
+        "unit": "px"
+      }
+    },
+    "checkboxRItemLabelSpace": {
+      "type": "object",
+      "default": {
+        "lg": "",
+        "unit": "px"
+      }
+    },
+    "checkboxRItemSpace": {
+      "type": "object",
+      "default": {
+        "lg": "",
+        "unit": "px"
+      }
+    },
+    "optionLabelColor": {
+      "type": "string",
+      "default": ""
+    },
+    "checkboxRBgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "checkboxRCheckedColor": {
+      "type": "string",
+      "default": ""
+    },
+    "checkboxRBorderWidth": {
+      "type": "object",
+      "default": {
+        "lg": "",
+        "unit": "px"
+      }
+    },
+    "checkboxRBorderColor": {
+      "type": "string",
+      "default": ""
+    },
+    "checkboxRounded": {
+      "type": "object",
+      "default": {
+        "lg": "",
+        "unit": "px"
+      }
+    },
+    "placeholderTypo": {
+      "type": "object",
+      "default": {
+        "openTypography": 1,
+        "size": {
+          "lg": "",
+          "unit": "px"
+        },
+        "spacing": {
+          "lg": "",
+          "unit": "px"
+        },
+        "height": {
+          "lg": "",
+          "unit": "px"
+        },
+        "transform": "",
+        "weight": ""
+      }
+    },
+    "placeholderColor": {
+      "type": "string",
+      "default": ""
+    },
+    "sectionBGColor": {
+      "type": "string",
+      "default": ""
+    },
+    "sectionMargin": {
+      "type": "object",
+      "default": {
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "sectionPadding": {
+      "type": "object",
+      "default": {
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "sectionHTypo": {
+      "type": "object",
+      "default": {
+        "openTypography": 1,
+        "size": {
+          "lg": "",
+          "unit": "px"
+        },
+        "spacing": {
+          "lg": "",
+          "unit": "px"
+        },
+        "height": {
+          "lg": "",
+          "unit": "px"
+        },
+        "transform": "",
+        "weight": ""
+      }
+    },
+    "sectionHTextColor": {
+      "type": "string",
+      "default": ""
+    },
+    "sectionHBGColor": {
+      "type": "string",
+      "default": ""
+    },
+    "sectionDTypo": {
+      "type": "object",
+      "default": {
+        "openTypography": 1,
+        "size": {
+          "lg": "",
+          "unit": "px"
+        },
+        "spacing": {
+          "lg": "",
+          "unit": "px"
+        },
+        "height": {
+          "lg": "",
+          "unit": "px"
+        },
+        "transform": "",
+        "weight": ""
+      }
+    },
+    "sectionDTextColor": {
+      "type": "string",
+      "default": ""
+    },
+    "sectionDBGColor": {
+      "type": "string",
+      "default": ""
+    },
+    "sectionHLineColor": {
+      "type": "string",
+      "default": ""
+    },
+    "customHtmlTypo": {
+      "type": "object",
+      "default": {
+        "openTypography": 1,
+        "size": {
+          "lg": "",
+          "unit": "px"
+        },
+        "spacing": {
+          "lg": "",
+          "unit": "px"
+        },
+        "height": {
+          "lg": "",
+          "unit": "px"
+        },
+        "transform": "",
+        "weight": ""
+      }
+    },
+    "customHtmlColor": {
+      "type": "string",
+      "default": ""
+    },
+    "customHtmlBGColor": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonWidth": {
+      "type": "object",
+      "default": {
+        "lg": "",
+        "unit": "px"
+      }
+    },
+    "buttonHeight": {
+      "type": "object",
+      "default": {
+        "lg": "",
+        "unit": "px"
+      }
+    },
+    "buttonTypo": {
+      "type": "object",
+      "default": {
+        "openTypography": 1,
+        "size": {
+          "lg": "",
+          "unit": "px"
+        },
+        "spacing": {
+          "lg": "",
+          "unit": "px"
+        },
+        "height": {
+          "lg": "",
+          "unit": "px"
+        },
+        "transform": "",
+        "weight": ""
+      }
+    },
+    "buttonTextColor": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonHoverTextColor": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonBGColor": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonHoverBGColor": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonPadding": {
+      "type": "object",
+      "default": {
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "buttonMargin": {
+      "type": "object",
+      "default": {
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "buttonBorder": {
+      "type": "object",
+      "default": {
+        "borderStyle": "",
+        "borderColor": "",
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "buttonHoverBorder": {
+      "type": "object",
+      "default": {
+        "borderStyle": "",
+        "borderColor": "",
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "buttonRadius": {
+      "type": "object",
+      "default": {
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "buttonHoverRadius": {
+      "type": "object",
+      "default": {
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "buttonShadow": {
+      "type": "object",
+      "default": {
+        "openShadow": 1,
+        "width": {
+          "top": 1,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        },
+        "color": "",
+        "inset": false
+      }
+    },
+    "buttonHoverShadow": {
+      "type": "object",
+      "default": {
+        "openShadow": 1,
+        "width": {
+          "top": 1,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        },
+        "color": "",
+        "inset": false
+      }
+    },
+    "successTypo": {
+      "type": "object",
+      "default": {
+        "openTypography": 1,
+        "size": {
+          "lg": "",
+          "unit": "px"
+        },
+        "spacing": {
+          "lg": "",
+          "unit": "px"
+        },
+        "height": {
+          "lg": "",
+          "unit": "px"
+        },
+        "transform": "",
+        "weight": ""
+      }
+    },
+    "successColor": {
+      "type": "string",
+      "default": ""
+    },
+    "successBGColor": {
+      "type": "string",
+      "default": ""
+    },
+    "successBorderColor": {
+      "type": "string",
+      "default": ""
+    },
+    "errorTypo": {
+      "type": "object",
+      "default": {
+        "openTypography": 1,
+        "size": {
+          "lg": "",
+          "unit": "px"
+        },
+        "spacing": {
+          "lg": "",
+          "unit": "px"
+        },
+        "height": {
+          "lg": "",
+          "unit": "px"
+        },
+        "transform": "",
+        "weight": ""
+      }
+    },
+    "errorColor": {
+      "type": "string",
+      "default": ""
+    },
+    "errorBGColor": {
+      "type": "string",
+      "default": ""
+    },
+    "errorBorderColor": {
+      "type": "string",
+      "default": ""
+    },
+    "blockId": {
+      "type": "string",
+      "default": ""
+    },
+    "resDevice": {
+      "type": "string",
+      "default": "lg"
+    },
+    "blockCSS": {
+      "type": "object"
+    },
+    "preview": {
+      "type": "boolean",
+      "default": false
+    },
+    "mainWrapMargin": {
+      "type": "object",
+      "default": {
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "mainWrapPadding": {
+      "type": "object",
+      "default": {
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "mainWrapBGType": {
+      "type": "string",
+      "default": "normal"
+    },
+    "mainWrapBG": {
+      "type": "object",
+      "default": {
+        "type": "classic",
+        "classic": {
+          "color": "",
+          "img": {
+            "imgURL": "",
+            "imgID": ""
+          },
+          "imgProperty": {
+            "imgPosition": {
+              "lg": ""
+            },
+            "imgAttachment": {
+              "lg": ""
+            },
+            "imgRepeat": {
+              "lg": ""
+            },
+            "imgSize": {
+              "lg": ""
+            }
+          }
+        },
+        "gradient": null
+      }
+    },
+    "mainWrapHoverBG": {
+      "type": "object",
+      "default": {
+        "type": "classic",
+        "classic": {
+          "color": "",
+          "img": {
+            "imgURL": "",
+            "imgID": ""
+          },
+          "imgProperty": {
+            "imgPosition": {
+              "lg": ""
+            },
+            "imgAttachment": {
+              "lg": ""
+            },
+            "imgRepeat": {
+              "lg": ""
+            },
+            "imgSize": {
+              "lg": ""
+            }
+          }
+        },
+        "gradient": null
+      }
+    },
+    "mainWrapHoverBGTransition": {
+      "type": "number",
+      "default": 0.5
+    },
+    "mainWrapBGOverlayEnable": {
+      "type": "boolean",
+      "default": false
+    },
+    "mainWrapBGOverlay": {
+      "type": "object",
+      "default": {
+        "openBGColor": 0,
+        "type": "classic",
+        "classic": {
+          "color": "",
+          "img": {
+            "imgURL": "",
+            "imgID": ""
+          },
+          "imgProperty": {
+            "imgPosition": {
+              "lg": ""
+            },
+            "imgAttachment": {
+              "lg": ""
+            },
+            "imgRepeat": {
+              "lg": ""
+            },
+            "imgSize": {
+              "lg": ""
+            }
+          }
+        },
+        "gradient": null
+      }
+    },
+    "mainWrapBorderType": {
+      "type": "string",
+      "default": "normal"
+    },
+    "mainWrapBorder": {
+      "type": "object",
+      "default": {
+        "borderStyle": "",
+        "borderColor": "",
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "mainWrapHoverBorder": {
+      "type": "object",
+      "default": {
+        "borderStyle": "",
+        "borderColor": "",
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "mainWrapRadius": {
+      "type": "object",
+      "default": {
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "mainWrapHoverRadius": {
+      "type": "object",
+      "default": {
+        "lg": {
+          "isLinked": true,
+          "unit": "px",
+          "value": ""
+        }
+      }
+    },
+    "mainWrapShadowType": {
+      "type": "string",
+      "default": "normal"
+    },
+    "mainWrapShadow": {
+      "type": "object",
+      "default": {
+        "width": {
+          "top": 1,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        },
+        "color": ""
+      }
+    },
+    "mainWrapHoverShadow": {
+      "type": "object",
+      "default": {
+        "width": {
+          "top": 1,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        },
+        "color": ""
+      }
+    },
+    "mainWrapZindex": {
+      "type": "number",
+      "default": 1
+    },
+    "mainWrapShowHide": {
+      "type": "object",
+      "default": {
+        "lg": false,
+        "md": false,
+        "sm": false
+      }
+    },
+    "blockCustomCss": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": [
+    "file:./index.css",
+    "fluentform-public-default-ffb"
+  ],
+  "style": "file:./style-index.css"
+}

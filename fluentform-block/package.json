@@ -1,0 +1,34 @@
+{
+	"name": "fluentform-block",
+	"version": "1.0.0",
+	"description": "=== Fluent Form Guttenberg Block Addon ===\r Contributors: Fluent Form Block\r Donate link:\r Tags: \r Requires at least: 5.0\r Tested up to: 6.1\r Stable tag: 1.0.0\r Requires PHP: 7.1\r License: GPLv3\r License URI: http://www.gnu.org/licenses/gpl-3.0.html",
+	"main": "index.js",
+	"scripts": {
+		"start": "wp-scripts start",
+		"build": "wp-scripts build",
+		"zip": "wp-scripts plugin-zip"
+	},
+	"files": [
+		"fluentform-block.php",
+		"uninstall.php",
+		"index.php",
+		"app/**",
+		"build/**",
+		"languages/**",
+		"vendor/**",
+		"views/**",
+		"readme.txt"
+	],
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@wordpress/scripts": "^26.8.0"
+	},
+	"dependencies": {
+		"@codemirror/lang-css": "^6.2.0",
+		"@uiw/react-codemirror": "^4.21.7",
+		"classnames": "^2.3.2",
+		"react-select": "^5.7.4"
+	}
+}

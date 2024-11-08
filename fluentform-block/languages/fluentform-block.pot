@@ -1,0 +1,1110 @@
+# Copyright (C) 2024 wpmetablock
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fluent Forms Block 2.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluentform-block\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-06-09T09:55:15+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: fluentform-block\n"
+
+#. Plugin Name of the plugin
+msgid "Fluent Forms Block"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/fluentform-block"
+msgstr ""
+
+#. Description of the plugin
+msgid "Fluent forms block is the extension of Fluent forms plugin.You can build advanced Contact form by Fluent form  block."
+msgstr ""
+
+#. Author of the plugin
+msgid "wpmetablock"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/wpmetablock"
+msgstr ""
+
+#: app/Ctrl/BlockCtrl.php:60
+msgid "Session Expired!!"
+msgstr ""
+
+#: app/Ctrl/BlockCtrl.php:69
+msgid "Please select a valid fluentform."
+msgstr ""
+
+#: app/Ctrl/BlockCtrl.php:83
+msgid "Fluent Form Block"
+msgstr ""
+
+#: app/Helper/Fns.php:48
+msgid "Select a Form"
+msgstr ""
+
+#: build/index.js:2892
+#: src/components/AdvancedControl.js:58
+#: build/index.js:2457
+msgid "Margin & Padding"
+msgstr ""
+
+#: build/index.js:2895
+#: src/components/AdvancedControl.js:63
+#: build/index.js:2462
+msgid "Margin Top"
+msgstr ""
+
+#: build/index.js:2906
+#: src/components/AdvancedControl.js:74
+#: build/index.js:2473
+msgid "Margin Bottom"
+msgstr ""
+
+#: build/index.js:2928
+#: build/index.js:7120
+#: build/index.js:7341
+#: build/index.js:7483
+#: src/components/AdvancedControl.js:98
+#: src/inspector.js:235
+#: src/inspector.js:461
+#: src/inspector.js:629
+#: build/index.js:2497
+#: build/index.js:5599
+#: build/index.js:5825
+#: build/index.js:5993
+msgid "Padding"
+msgstr ""
+
+#: build/index.js:2939
+#: src/components/AdvancedControl.js:110
+#: build/index.js:2509
+msgid "Background"
+msgstr ""
+
+#: build/index.js:2958
+#: src/components/AdvancedControl.js:130
+#: build/index.js:2529
+msgid "Background Transition"
+msgstr ""
+
+#: build/index.js:2969
+#: src/components/AdvancedControl.js:143
+#: build/index.js:2542
+msgid "Enable Overlay"
+msgstr ""
+
+#: build/index.js:2982
+#: build/index.js:7137
+#: build/index.js:7500
+#: src/components/AdvancedControl.js:163
+#: src/inspector.js:251
+#: src/inspector.js:647
+#: build/index.js:2562
+#: build/index.js:5615
+#: build/index.js:6011
+msgid "Border"
+msgstr ""
+
+#: build/index.js:2994
+#: build/index.js:3014
+#: build/index.js:7154
+#: build/index.js:7174
+#: build/index.js:7517
+#: build/index.js:7537
+#: src/components/AdvancedControl.js:175
+#: src/components/AdvancedControl.js:196
+#: src/inspector.js:268
+#: src/inspector.js:292
+#: src/inspector.js:660
+#: src/inspector.js:677
+#: build/index.js:2574
+#: build/index.js:2595
+#: build/index.js:5632
+#: build/index.js:5656
+#: build/index.js:6024
+#: build/index.js:6041
+msgid "Border Radius"
+msgstr ""
+
+#: build/index.js:3026
+#: src/components/AdvancedControl.js:210
+#: build/index.js:2609
+msgid "Shadow"
+msgstr ""
+
+#: build/index.js:3042
+#: src/components/AdvancedControl.js:227
+#: build/index.js:2626
+msgid "Show/Hide Condition"
+msgstr ""
+
+#: build/index.js:3045
+#: src/components/AdvancedControl.js:229
+#: build/index.js:2628
+msgid "Hide on desktop"
+msgstr ""
+
+#: build/index.js:3055
+#: src/components/AdvancedControl.js:237
+#: build/index.js:2636
+msgid "Hide on Tablet"
+msgstr ""
+
+#: build/index.js:3065
+#: src/components/AdvancedControl.js:245
+#: build/index.js:2644
+msgid "Hide on Mobile"
+msgstr ""
+
+#: build/index.js:3075
+#: build/index.js:3078
+#: src/components/AdvancedControl.js:254
+#: src/components/AdvancedControl.js:256
+#: build/index.js:2653
+#: build/index.js:2655
+msgid "Z-Index"
+msgstr ""
+
+#: build/index.js:3088
+#: src/components/AdvancedControl.js:266
+#: build/index.js:2665
+msgid "Coustom CSS"
+msgstr ""
+
+#: build/index.js:3174
+#: src/components/Alignment.js:60
+#: build/index.js:2736
+msgid "Left"
+msgstr ""
+
+#: build/index.js:3184
+#: src/components/Alignment.js:65
+#: build/index.js:2741
+msgid "Middle"
+msgstr ""
+
+#: build/index.js:3194
+#: build/index.js:3204
+#: src/components/Alignment.js:70
+#: src/components/Alignment.js:75
+#: build/index.js:2746
+#: build/index.js:2751
+msgid "Right"
+msgstr ""
+
+#: build/index.js:3286
+#: build/index.js:7181
+#: build/index.js:7238
+#: build/index.js:7319
+#: build/index.js:7362
+#: build/index.js:7383
+#: build/index.js:7411
+#: build/index.js:7434
+#: build/index.js:7576
+#: build/index.js:7604
+#: src/components/Background/BGImage.js:49
+#: src/inspector.js:303
+#: src/inspector.js:359
+#: src/inspector.js:440
+#: src/inspector.js:486
+#: src/inspector.js:512
+#: src/inspector.js:546
+#: src/inspector.js:574
+#: src/inspector.js:716
+#: src/inspector.js:753
+#: build/index.js:2815
+#: build/index.js:5667
+#: build/index.js:5723
+#: build/index.js:5804
+#: build/index.js:5850
+#: build/index.js:5876
+#: build/index.js:5910
+#: build/index.js:5938
+#: build/index.js:6080
+#: build/index.js:6117
+msgid "Background Color"
+msgstr ""
+
+#: build/index.js:3290
+#: src/components/Background/BGImage.js:54
+#: build/index.js:2820
+msgid "Background Image"
+msgstr ""
+
+#: build/index.js:3307
+#: src/components/Background/BGImage.js:71
+#: build/index.js:2837
+msgid "Upload Image"
+msgstr ""
+
+#: build/index.js:3322
+#: src/components/Background/BGImage.js:92
+#: build/index.js:2858
+msgid "Background Position"
+msgstr ""
+
+#: build/index.js:3332
+#: src/components/Background/BGImage.js:107
+#: build/index.js:2873
+msgid "Background Attachment"
+msgstr ""
+
+#: build/index.js:3340
+#: src/components/Background/BGImage.js:119
+#: build/index.js:2885
+msgid "Background Repeat"
+msgstr ""
+
+#: build/index.js:3348
+#: src/components/Background/BGImage.js:131
+#: build/index.js:2897
+msgid "Background Size"
+msgstr ""
+
+#: build/index.js:3628
+#: src/components/BorderDimension.js:18
+#: build/index.js:3092
+msgid "Border Style"
+msgstr ""
+
+#: build/index.js:3633
+#: build/index.js:7298
+#: build/index.js:7389
+#: build/index.js:7582
+#: build/index.js:7610
+#: src/components/BorderDimension.js:27
+#: src/inspector.js:420
+#: src/inspector.js:521
+#: src/inspector.js:725
+#: src/inspector.js:761
+#: build/index.js:3101
+#: build/index.js:5784
+#: build/index.js:5885
+#: build/index.js:6089
+#: build/index.js:6125
+msgid "Border Color"
+msgstr ""
+
+#: build/index.js:3702
+#: src/components/BoxShadow.js:36
+#: build/index.js:3159
+msgid "Shadow Color"
+msgstr ""
+
+#: build/index.js:3706
+#: src/components/BoxShadow.js:41
+#: build/index.js:3164
+msgid "Horizontal Offset"
+msgstr ""
+
+#: build/index.js:3713
+#: src/components/BoxShadow.js:49
+#: build/index.js:3172
+msgid "Vertical Offset"
+msgstr ""
+
+#: build/index.js:3720
+#: src/components/BoxShadow.js:57
+#: build/index.js:3180
+msgid "Shadow Blur"
+msgstr ""
+
+#: build/index.js:3727
+#: src/components/BoxShadow.js:65
+#: build/index.js:3188
+msgid "Shadow Spread"
+msgstr ""
+
+#: build/index.js:3734
+#: src/components/BoxShadow.js:75
+#: build/index.js:3198
+msgid "Shadow Transition"
+msgstr ""
+
+#: build/index.js:3936
+#: src/components/Devices.js:28
+#: build/index.js:3337
+msgid "Desktop"
+msgstr ""
+
+#: build/index.js:3942
+#: src/components/Devices.js:33
+#: build/index.js:3342
+msgid "Tablet"
+msgstr ""
+
+#: build/index.js:3948
+#: src/components/Devices.js:38
+#: build/index.js:3347
+msgid "Mobile"
+msgstr ""
+
+#: build/index.js:4144
+#: build/index.js:5603
+#: build/index.js:5634
+#: build/index.js:5647
+#: build/index.js:5663
+#: build/index.js:5686
+#: build/index.js:5711
+#: src/components/FontPicker.js:21
+#: src/globals/Constants.js:41
+#: src/globals/Constants.js:54
+#: src/globals/Constants.js:61
+#: src/globals/Constants.js:69
+#: src/globals/Constants.js:82
+#: src/globals/Constants.js:93
+#: build/index.js:3519
+#: build/index.js:4497
+#: build/index.js:4510
+#: build/index.js:4517
+#: build/index.js:4525
+#: build/index.js:4538
+#: build/index.js:4549
+msgid "Default"
+msgstr ""
+
+#: build/index.js:4407
+#: src/components/IconControl.js:58
+#: build/index.js:3725
+msgid "Component props options is mandatory"
+msgstr ""
+
+#: build/index.js:5239
+#: src/components/Typography.js:43
+#: build/index.js:4227
+msgid "Font Family"
+msgstr ""
+
+#: build/index.js:5244
+#: src/components/Typography.js:50
+#: build/index.js:4234
+msgid "Font Size"
+msgstr ""
+
+#: build/index.js:5254
+#: src/components/Typography.js:62
+#: build/index.js:4246
+msgid "Font Weight"
+msgstr ""
+
+#: build/index.js:5259
+#: src/components/Typography.js:71
+#: build/index.js:4255
+msgid "Font Style"
+msgstr ""
+
+#: build/index.js:5264
+#: src/components/Typography.js:80
+#: build/index.js:4264
+msgid "Text Transform"
+msgstr ""
+
+#: build/index.js:5269
+#: src/components/Typography.js:89
+#: build/index.js:4273
+msgid "Letter Spacing"
+msgstr ""
+
+#: build/index.js:5279
+#: src/components/Typography.js:101
+#: build/index.js:4285
+msgid "Line Height"
+msgstr ""
+
+#: build/index.js:5466
+#: src/edit.js:86
+#: build/index.js:4410
+msgid "No Fluentform found."
+msgstr ""
+
+#: build/index.js:5475
+#: src/edit.js:107
+#: build/index.js:4431
+msgid "To use the features of this block, please install and activate the "
+msgstr ""
+
+#: build/index.js:5479
+#: src/edit.js:108
+#: build/index.js:4432
+msgid "Fluent Forms"
+msgstr ""
+
+#: build/index.js:5481
+#: src/edit.js:117
+#: build/index.js:4441
+msgid "Please Select A Form"
+msgstr ""
+
+#: build/index.js:5596
+#: src/globals/Constants.js:36
+#: build/index.js:4492
+msgid "Classic"
+msgstr ""
+
+#: build/index.js:5599
+#: src/globals/Constants.js:37
+#: build/index.js:4493
+msgid "Gradient"
+msgstr ""
+
+#: build/index.js:5606
+#: src/globals/Constants.js:42
+#: build/index.js:4498
+msgid "Left Top"
+msgstr ""
+
+#: build/index.js:5609
+#: src/globals/Constants.js:43
+#: build/index.js:4499
+msgid "Left Center"
+msgstr ""
+
+#: build/index.js:5612
+#: src/globals/Constants.js:44
+#: build/index.js:4500
+msgid "Left Bottom"
+msgstr ""
+
+#: build/index.js:5615
+#: src/globals/Constants.js:45
+#: build/index.js:4501
+msgid "Right Top"
+msgstr ""
+
+#: build/index.js:5618
+#: src/globals/Constants.js:46
+#: build/index.js:4502
+msgid "Right Center"
+msgstr ""
+
+#: build/index.js:5621
+#: src/globals/Constants.js:47
+#: build/index.js:4503
+msgid "Right Bottom"
+msgstr ""
+
+#: build/index.js:5624
+#: src/globals/Constants.js:48
+#: build/index.js:4504
+msgid "Center Top"
+msgstr ""
+
+#: build/index.js:5627
+#: src/globals/Constants.js:49
+#: build/index.js:4505
+msgid "Center Center"
+msgstr ""
+
+#: build/index.js:5630
+#: src/globals/Constants.js:50
+#: build/index.js:4506
+msgid "Center Bottom"
+msgstr ""
+
+#: build/index.js:5637
+#: src/globals/Constants.js:55
+#: build/index.js:4511
+msgid "Auto"
+msgstr ""
+
+#: build/index.js:5640
+#: src/globals/Constants.js:56
+#: build/index.js:4512
+msgid "Cover"
+msgstr ""
+
+#: build/index.js:5643
+#: src/globals/Constants.js:57
+#: build/index.js:4513
+msgid "Contain"
+msgstr ""
+
+#: build/index.js:5650
+#: src/globals/Constants.js:62
+#: build/index.js:4518
+msgid "No Repeat"
+msgstr ""
+
+#: build/index.js:5653
+#: src/globals/Constants.js:63
+#: build/index.js:4519
+msgid "Repeat"
+msgstr ""
+
+#: build/index.js:5656
+#: src/globals/Constants.js:64
+#: build/index.js:4520
+msgid "Repeat X"
+msgstr ""
+
+#: build/index.js:5659
+#: src/globals/Constants.js:65
+#: build/index.js:4521
+msgid "Repeat Y"
+msgstr ""
+
+#: build/index.js:5666
+#: src/globals/Constants.js:70
+#: build/index.js:4526
+msgid "Scroll"
+msgstr ""
+
+#: build/index.js:5669
+#: src/globals/Constants.js:71
+#: build/index.js:4527
+msgid "Fixed"
+msgstr ""
+
+#: build/index.js:5673
+#: src/globals/Constants.js:75
+#: build/index.js:4531
+msgid "None"
+msgstr ""
+
+#: build/index.js:5676
+#: src/globals/Constants.js:76
+#: build/index.js:4532
+msgid "Lowercase"
+msgstr ""
+
+#: build/index.js:5679
+#: src/globals/Constants.js:77
+#: build/index.js:4533
+msgid "Capitalize"
+msgstr ""
+
+#: build/index.js:5682
+#: src/globals/Constants.js:78
+#: build/index.js:4534
+msgid "Uppercase"
+msgstr ""
+
+#: build/index.js:5689
+#: src/globals/Constants.js:83
+#: build/index.js:4539
+msgid "Light"
+msgstr ""
+
+#: build/index.js:5692
+#: build/index.js:5714
+#: src/globals/Constants.js:84
+#: src/globals/Constants.js:94
+#: build/index.js:4540
+#: build/index.js:4550
+msgid "Normal"
+msgstr ""
+
+#: build/index.js:5695
+#: src/globals/Constants.js:85
+#: build/index.js:4541
+msgid "Medium"
+msgstr ""
+
+#: build/index.js:5698
+#: src/globals/Constants.js:86
+#: build/index.js:4542
+msgid "Semi Bold"
+msgstr ""
+
+#: build/index.js:5701
+#: src/globals/Constants.js:87
+#: build/index.js:4543
+msgid "Bold"
+msgstr ""
+
+#: build/index.js:5704
+#: src/globals/Constants.js:88
+#: build/index.js:4544
+msgid "Extra Bold"
+msgstr ""
+
+#: build/index.js:5707
+#: src/globals/Constants.js:89
+#: build/index.js:4545
+msgid "Heavy Bold"
+msgstr ""
+
+#: build/index.js:5717
+#: src/globals/Constants.js:95
+#: build/index.js:4551
+msgid "Italic"
+msgstr ""
+
+#: build/index.js:5720
+#: src/globals/Constants.js:96
+#: build/index.js:4552
+msgid "Oblique"
+msgstr ""
+
+#: build/index.js:5724
+#: build/index.js:6025
+#: src/globals/Constants.js:101
+#: src/globals/Constants.js:231
+#: build/index.js:4557
+#: build/index.js:4687
+msgid "H1"
+msgstr ""
+
+#: build/index.js:5727
+#: build/index.js:6028
+#: src/globals/Constants.js:102
+#: src/globals/Constants.js:232
+#: build/index.js:4558
+#: build/index.js:4688
+msgid "H2"
+msgstr ""
+
+#: build/index.js:5730
+#: build/index.js:6031
+#: src/globals/Constants.js:103
+#: src/globals/Constants.js:233
+#: build/index.js:4559
+#: build/index.js:4689
+msgid "H3"
+msgstr ""
+
+#: build/index.js:5733
+#: build/index.js:6034
+#: src/globals/Constants.js:104
+#: src/globals/Constants.js:234
+#: build/index.js:4560
+#: build/index.js:4690
+msgid "H4"
+msgstr ""
+
+#: build/index.js:5736
+#: build/index.js:6037
+#: src/globals/Constants.js:105
+#: src/globals/Constants.js:235
+#: build/index.js:4561
+#: build/index.js:4691
+msgid "H5"
+msgstr ""
+
+#: build/index.js:5739
+#: build/index.js:6040
+#: src/globals/Constants.js:106
+#: src/globals/Constants.js:236
+#: build/index.js:4562
+#: build/index.js:4692
+msgid "H6"
+msgstr ""
+
+#: build/index.js:5835
+#: build/index.js:5860
+#: src/globals/Constants.js:158
+#: src/globals/Constants.js:168
+#: build/index.js:4614
+#: build/index.js:4624
+msgid "1 Col"
+msgstr ""
+
+#: build/index.js:5838
+#: build/index.js:5863
+#: src/globals/Constants.js:159
+#: src/globals/Constants.js:169
+#: build/index.js:4615
+#: build/index.js:4625
+msgid "2 Col"
+msgstr ""
+
+#: build/index.js:5841
+#: build/index.js:5866
+#: src/globals/Constants.js:160
+#: src/globals/Constants.js:170
+#: build/index.js:4616
+#: build/index.js:4626
+msgid "3 Col"
+msgstr ""
+
+#: build/index.js:5844
+#: build/index.js:5869
+#: src/globals/Constants.js:161
+#: src/globals/Constants.js:171
+#: build/index.js:4617
+#: build/index.js:4627
+msgid "4 Col"
+msgstr ""
+
+#: build/index.js:5847
+#: build/index.js:5872
+#: src/globals/Constants.js:162
+#: src/globals/Constants.js:172
+#: build/index.js:4618
+#: build/index.js:4628
+msgid "5 Col"
+msgstr ""
+
+#: build/index.js:5850
+#: build/index.js:5875
+#: src/globals/Constants.js:163
+#: src/globals/Constants.js:173
+#: build/index.js:4619
+#: build/index.js:4629
+msgid "6 Col"
+msgstr ""
+
+#: build/index.js:5853
+#: src/globals/Constants.js:164
+#: build/index.js:4620
+msgid "7 Col"
+msgstr ""
+
+#: build/index.js:5856
+#: src/globals/Constants.js:165
+#: build/index.js:4621
+msgid "8 Col"
+msgstr ""
+
+#: build/index.js:6043
+#: src/globals/Constants.js:237
+#: build/index.js:4693
+msgid "Span"
+msgstr ""
+
+#: build/index.js:6046
+#: src/globals/Constants.js:238
+#: build/index.js:4694
+msgid "P"
+msgstr ""
+
+#: build/index.js:6996
+#: src/inspector.js:106
+#: build/index.js:5470
+msgid "General"
+msgstr ""
+
+#: build/index.js:6999
+#: src/inspector.js:108
+#: build/index.js:5472
+msgid "Fluent Form"
+msgstr ""
+
+#: build/index.js:7013
+#: src/inspector.js:118
+#: build/index.js:5482
+msgid "Form list from plugin fluent form list"
+msgstr ""
+
+#: build/index.js:7015
+#: src/inspector.js:122
+#: build/index.js:5486
+msgid "Display Labels"
+msgstr ""
+
+#: build/index.js:7021
+#: src/inspector.js:130
+#: build/index.js:5494
+msgid "Display Placeholder"
+msgstr ""
+
+#: build/index.js:7027
+#: src/inspector.js:138
+#: build/index.js:5502
+msgid "Display Error Message"
+msgstr ""
+
+#: build/index.js:7045
+#: src/inspector.js:156
+#: build/index.js:5520
+msgid "Alignment"
+msgstr ""
+
+#: build/index.js:7058
+#: src/inspector.js:165
+#: build/index.js:5529
+msgid "Alignment field working when form max width field value set"
+msgstr ""
+
+#: build/index.js:7061
+#: src/inspector.js:173
+#: build/index.js:5537
+msgid "Label"
+msgstr ""
+
+#: build/index.js:7064
+#: build/index.js:7216
+#: build/index.js:7349
+#: build/index.js:7370
+#: build/index.js:7398
+#: build/index.js:7420
+#: build/index.js:7563
+#: build/index.js:7591
+#: src/inspector.js:175
+#: src/inspector.js:338
+#: src/inspector.js:472
+#: src/inspector.js:498
+#: src/inspector.js:532
+#: src/inspector.js:557
+#: src/inspector.js:700
+#: src/inspector.js:737
+#: build/index.js:5539
+#: build/index.js:5702
+#: build/index.js:5836
+#: build/index.js:5862
+#: build/index.js:5896
+#: build/index.js:5921
+#: build/index.js:6064
+#: build/index.js:6101
+msgid "Typography"
+msgstr ""
+
+#: build/index.js:7071
+#: build/index.js:7223
+#: build/index.js:7570
+#: build/index.js:7598
+#: src/inspector.js:181
+#: src/inspector.js:344
+#: src/inspector.js:707
+#: src/inspector.js:744
+#: build/index.js:5545
+#: build/index.js:5708
+#: build/index.js:6071
+#: build/index.js:6108
+msgid "Color"
+msgstr ""
+
+#: build/index.js:7077
+#: src/inspector.js:188
+#: build/index.js:5552
+msgid "Space"
+msgstr ""
+
+#: build/index.js:7088
+#: src/inspector.js:200
+#: build/index.js:5564
+msgid "Input/Textarea/Select"
+msgstr ""
+
+#: build/index.js:7091
+#: src/inspector.js:208
+#: build/index.js:5572
+msgid "Input Width"
+msgstr ""
+
+#: build/index.js:7103
+#: src/inspector.js:220
+#: build/index.js:5584
+msgid "Input Height"
+msgstr ""
+
+#: build/index.js:7131
+#: build/index.js:7330
+#: build/index.js:7494
+#: src/inspector.js:245
+#: src/inspector.js:451
+#: src/inspector.js:639
+#: build/index.js:5609
+#: build/index.js:5815
+#: build/index.js:6003
+msgid "Margin"
+msgstr ""
+
+#: build/index.js:7188
+#: src/inspector.js:308
+#: build/index.js:5672
+msgid "Textarea"
+msgstr ""
+
+#: build/index.js:7189
+#: src/inspector.js:311
+#: build/index.js:5675
+msgid "Textarea Width"
+msgstr ""
+
+#: build/index.js:7201
+#: src/inspector.js:323
+#: build/index.js:5687
+msgid "Textarea Height"
+msgstr ""
+
+#: build/index.js:7213
+#: src/inspector.js:336
+#: build/index.js:5700
+msgid "Placeholder"
+msgstr ""
+
+#: build/index.js:7229
+#: src/inspector.js:351
+#: build/index.js:5715
+msgid "Checkbox & Radio"
+msgstr ""
+
+#: build/index.js:7232
+#: src/inspector.js:353
+#: build/index.js:5717
+msgid "Label Color"
+msgstr ""
+
+#: build/index.js:7244
+#: src/inspector.js:365
+#: build/index.js:5729
+msgid "Checked Color"
+msgstr ""
+
+#: build/index.js:7250
+#: src/inspector.js:371
+#: build/index.js:5735
+msgid "Size"
+msgstr ""
+
+#: build/index.js:7262
+#: src/inspector.js:383
+#: build/index.js:5747
+msgid "Item To Label Space"
+msgstr ""
+
+#: build/index.js:7274
+#: src/inspector.js:396
+#: build/index.js:5760
+msgid "Item Bottom Space"
+msgstr ""
+
+#: build/index.js:7286
+#: src/inspector.js:408
+#: build/index.js:5772
+msgid "Border Width"
+msgstr ""
+
+#: build/index.js:7304
+#: src/inspector.js:426
+#: build/index.js:5790
+msgid "Checkbox Rounded Corners"
+msgstr ""
+
+#: build/index.js:7316
+#: src/inspector.js:438
+#: build/index.js:5802
+msgid "Section Break"
+msgstr ""
+
+#: build/index.js:7348
+#: src/inspector.js:469
+#: build/index.js:5833
+msgid "Heading"
+msgstr ""
+
+#: build/index.js:7356
+#: build/index.js:7377
+#: build/index.js:7405
+#: build/index.js:7428
+#: src/inspector.js:478
+#: src/inspector.js:504
+#: src/inspector.js:538
+#: src/inspector.js:566
+#: build/index.js:5842
+#: build/index.js:5868
+#: build/index.js:5902
+#: build/index.js:5930
+msgid "Text Color"
+msgstr ""
+
+#: build/index.js:7369
+#: src/inspector.js:495
+#: build/index.js:5859
+msgid "Description"
+msgstr ""
+
+#: build/index.js:7395
+#: src/inspector.js:530
+#: build/index.js:5894
+msgid "Custom HTML"
+msgstr ""
+
+#: build/index.js:7417
+#: src/inspector.js:555
+#: build/index.js:5919
+msgid "Submit Button"
+msgstr ""
+
+#: build/index.js:7441
+#: src/inspector.js:584
+#: build/index.js:5948
+msgid "Hover Text Color"
+msgstr ""
+
+#: build/index.js:7447
+#: src/inspector.js:592
+#: build/index.js:5956
+msgid "Hover Background Color"
+msgstr ""
+
+#: build/index.js:7454
+#: src/inspector.js:603
+#: build/index.js:5967
+msgid "Width"
+msgstr ""
+
+#: build/index.js:7466
+#: src/inspector.js:615
+#: build/index.js:5979
+msgid "Height"
+msgstr ""
+
+#: build/index.js:7544
+#: src/inspector.js:685
+#: build/index.js:6049
+msgid "Box Shadow"
+msgstr ""
+
+#: build/index.js:7560
+#: src/inspector.js:697
+#: build/index.js:6061
+msgid "Success Message"
+msgstr ""
+
+#: build/index.js:7588
+#: src/inspector.js:734
+#: build/index.js:6098
+msgid "Error Message"
+msgstr ""
+
+#: build/block.json
+#: src/block.json
+msgctxt "block title"
+msgid "Fluent Form Block"
+msgstr ""
+
+#: build/block.json
+#: src/block.json
+msgctxt "block description"
+msgid "Fluent forms block is the extension of Fluent forms plugin.You can build advanced Contact form by Fluent form  block."
+msgstr ""
+
+#: build/block.json
+#: src/block.json
+msgctxt "block keyword"
+msgid "gutenberg form"
+msgstr ""
+
+#: build/block.json
+#: src/block.json
+msgctxt "block keyword"
+msgid "contact form"
+msgstr ""
+
+#: build/block.json
+#: src/block.json
+msgctxt "block keyword"
+msgid "forms"
+msgstr ""
+
+#: build/block.json
+#: src/block.json
+msgctxt "block keyword"
+msgid "custom form"
+msgstr ""
+
+#: build/block.json
+#: src/block.json
+msgctxt "block keyword"
+msgid "form builder"
+msgstr ""
